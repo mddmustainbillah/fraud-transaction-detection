@@ -1,0 +1,46 @@
+[2023-12-27 13:01:30,986: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-12-27 13:01:30,988: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-12-27 13:01:30,989: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 13:01:30,990: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-27 13:01:30,991: INFO: common: created directory at: artifacts]
+[2023-12-27 13:01:30,991: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-12-27 13:01:35,538: INFO: data_ingestion: artifacts/data_ingestion/fraud_detection_data.zip download! with following info: 
+Connection: close
+Content-Length: 14765098
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "1f082ae94d5ec955a3e175c40163c6072f53ace0c48ed72cf00863748f0aa091"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 708C:84DD:1D39EF1:23A1F9D:658BC9C5
+Accept-Ranges: bytes
+Date: Wed, 27 Dec 2023 07:01:32 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10246-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1703660492.162653,VS0,VE318
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 46259fb6ba31b6472dde954552d90e4fbeab2ad2
+Expires: Wed, 27 Dec 2023 07:06:32 GMT
+Source-Age: 0
+
+]
+[2023-12-27 13:01:35,780: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-12-27 13:02:40,274: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-12-27 13:02:40,276: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 13:02:40,279: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-27 13:02:40,280: INFO: common: created directory at: artifacts]
+[2023-12-27 13:02:40,282: INFO: common: created directory at: artifacts/data_validation]
+[2023-12-27 13:55:35,944: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-12-27 13:55:35,946: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-12-27 13:55:35,965: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-12-27 13:55:35,967: INFO: common: created directory at: artifacts]
+[2023-12-27 13:55:35,973: INFO: common: created directory at: artifacts/data_validation]

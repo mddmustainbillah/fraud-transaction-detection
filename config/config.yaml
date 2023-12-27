@@ -1,0 +1,13 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/mddmustainbillah/Machine_learning_AT/raw/main/fraud_data.csv.zip
+  local_data_file: artifacts/data_ingestion/fraud_detection_data.zip  # Update with the correct filename
+  unzip_dir: artifacts/data_ingestion
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/fraud_data.csv
+  STATUS_FILE: artifacts/data_validation/status.txt
