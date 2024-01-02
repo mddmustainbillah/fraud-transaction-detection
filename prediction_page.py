@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+from src.mlProject.pipeline.prediction import PredictionPipeline
 
 def show_prediction_page():
     st.header("Welcome to Prediction Page")
@@ -36,5 +37,18 @@ def show_prediction_page():
 
     ok = st.button("Predict")
     if ok:
-        row = np.array([distance_from_home, distance_from_last_transaction, ratio_to_median_purchase_price, repeat_retailer, used_chip, used_pin_number, online_order]) 
-        st.write(row)
+        # data = np.array([distance_from_home, distance_from_last_transaction, ratio_to_median_purchase_price, repeat_retailer, used_chip, used_pin_number, online_order]) 
+        data = np.array([float(distance_from_home), float(distance_from_last_transaction), float(ratio_to_median_purchase_price), float(repeat_retailer), float(used_chip), float(used_pin_number), float(online_order)])
+
+        # st.write(data)
+        data = data.reshape(1, -1)
+        # st.write(data)
+
+        obj = PredictionPipeline()
+        predict = obj.predict(data)
+        # st.write(predict)
+
+        if predict <= 0.5:
+            st.write('The transaction is not fraud.')
+        else:
+            st.write('The transaction is fraud.')
