@@ -1,3 +1,8 @@
-ElasticNet:
-  alpha: 0.2
-  l1_ratio: 0.1
+# ElasticNet:
+#   alpha: 0.2
+#   l1_ratio: 0.1
+
+
+RandomForest:
+  n_estimators: 100  # You can adjust this based on your problem
+  max_depth: 7   # You can adjust this based on your problem
