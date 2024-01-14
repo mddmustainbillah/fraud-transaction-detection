@@ -6,6 +6,8 @@ This project focuses on building an accurate fraud detection system for business
 ## Overview
 This project focuses on fraud transaction detection using a comprehensive end-to-end pipeline, from data ingestion to prediction deployment. The entire workflow is designed for simplicity and efficiency, enabling users to retrain the model with a single command/API.
 
+![Alt text](image/fraud-detection.png)
+
 ## Key Components
 #### 1. Data Ingestion
 * Data is sourced online and downloaded automatically. The ingestion process is a crucial step that ensures the most recent data is used for training and prediction. After downloading, the data is extracted to uncover relevant information for fraud detection. This step is essential for understanding the dataset's structure and features.
@@ -31,8 +33,7 @@ Retraining the model is simplified to a single command. This feature enhances th
 python main.py
 ```
 
-## How to Use
-Detailed instructions on how to use the project:
+## How to Use?
 
 First clone the project to download in your local directory:
 ```bash
@@ -48,7 +49,7 @@ Activate the environment:
 conda activate mlvenv
 ```
 
-Install all the necessary requirements
+Install all the necessary requirements:
 ```bash
 pip install -r requirements.txt
 ```
